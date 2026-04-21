@@ -1,8 +1,8 @@
 ---
-skill_id: "skill-name"
-name: "Human Readable Name"
+skill_id: "hand-calculation-tutor"
+name: "Hand Calculation Tutor"
 skill_type: "instructional"
-tags: ["topic1", "topic2"]
+tags: ["cs343", "calculation", "writing", "tutor"]
 python_entry: "logic.py"
 ---
 
