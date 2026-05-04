@@ -2,8 +2,16 @@
 skill_id: "extract-requirements"
 name: "Extract Requirements"
 skill_type: "instructional"
+stance: "socratic"
 tags: ["cs343", "requirements", "spec", "planning", "tutor"]
-python_entry: "logic.py"
+course_types: ["cs", "humanities"]
+learning_goal_tags:
+  - "extract-requirements"
+  - "bound-scope"
+trigger_signals:
+  - "spec-confusion"
+  - "missing-requirements"
+  - "starting-without-plan"
 ---
 
 # Skill Name

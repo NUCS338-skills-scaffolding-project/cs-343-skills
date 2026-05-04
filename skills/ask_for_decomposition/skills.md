@@ -2,8 +2,15 @@
 skill_id: "ask-for-decomposition"
 name: "Ask for Decomposition"
 skill_type: "instructional"
-tags: ["cs343", "decomposition", "planning", "problem-solving", "tutor"]
-python_entry: "logic.py"
+stance: "socratic"
+tags: ["decomposition", "planning", "problem-solving", "tutor"]
+course_types: ["cs"]
+learning_goal_tags:
+  - "decompose-problems"
+trigger_signals:
+  - "student-stuck-starting"
+  - "student-skipping-planning"
+  - "direct-solution-request"
 ---
 
 # Skill Name

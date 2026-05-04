@@ -2,8 +2,16 @@
 skill_id: "connect-prior-knowledge"
 name: "Connect Prior Knowledge"
 skill_type: "instructional"
+stance: "socratic"
 tags: ["cs343", "prior-knowledge", "analogy", "bridge", "tutor"]
-python_entry: "logic.py"
+course_types: ["cs"]
+learning_goal_tags:
+  - "reflect-on-progress"
+  - "evaluate-reasoning"
+trigger_signals:
+  - "student-knows-related-concept"
+  - "new-concept-confusion"
+  - "prior-course-reference"
 ---
 
 # Skill Name

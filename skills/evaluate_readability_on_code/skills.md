@@ -1,9 +1,17 @@
 ---
 skill_id: "evaluate-readability-on-code"
 name: "Evaluate Readability on Code"
-skill_type: "code"
+skill_type: "instructional"
+stance: "socratic"
 tags: ["cs343", "readability", "code-review", "feedback", "tutor"]
-python_entry: "logic.py"
+course_types: ["cs"]
+learning_goal_tags:
+  - "evaluate-readability"
+  - "evaluate-modularity"
+trigger_signals:
+  - "code-review-request"
+  - "readability-question"
+  - "pre-submission-feedback"
 ---
 
 # Skill Name

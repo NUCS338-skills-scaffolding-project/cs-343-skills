@@ -2,8 +2,16 @@
 skill_id: "explanation-nautilus-architecture"
 name: "Explanation Nautilus Architecture"
 skill_type: "instructional"
+stance: "socratic"
 tags: ["cs343", "nautilus", "architecture", "guide"]
-python_entry: "logic.py"
+course_types: ["cs"]
+learning_goal_tags:
+  - "trace-execution"
+  - "identify-invariants"
+trigger_signals:
+  - "architecture-confusion"
+  - "lab-orientation-needed"
+  - "file-location-question"
 ---
 
 # Skill Name
