@@ -3,7 +3,7 @@ skill_id: "extract-requirements"
 name: "Extract Requirements"
 skill_type: "instructional"
 stance: "socratic"
-tags: ["cs343", "requirements", "spec", "planning", "tutor"]
+tags: ["requirements", "spec", "planning", "tutor"]
 course_types: ["cs", "humanities"]
 learning_goal_tags:
   - "extract-requirements"

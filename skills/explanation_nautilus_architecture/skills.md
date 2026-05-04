@@ -3,7 +3,7 @@ skill_id: "explanation-nautilus-architecture"
 name: "Explanation Nautilus Architecture"
 skill_type: "instructional"
 stance: "socratic"
-tags: ["cs343", "nautilus", "architecture", "guide"]
+tags: ["nautilus", "architecture", "guide"]
 course_types: ["cs"]
 learning_goal_tags:
   - "trace-execution"

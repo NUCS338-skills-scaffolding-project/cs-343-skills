@@ -3,7 +3,7 @@ skill_id: "connect-prior-knowledge"
 name: "Connect Prior Knowledge"
 skill_type: "instructional"
 stance: "socratic"
-tags: ["cs343", "prior-knowledge", "analogy", "bridge", "tutor"]
+tags: ["prior-knowledge", "analogy", "bridge", "tutor"]
 course_types: ["cs"]
 learning_goal_tags:
   - "reflect-on-progress"

@@ -3,7 +3,7 @@ skill_id: "evaluate-readability-on-code"
 name: "Evaluate Readability on Code"
 skill_type: "instructional"
 stance: "socratic"
-tags: ["cs343", "readability", "code-review", "feedback", "tutor"]
+tags: ["readability", "code-review", "feedback", "tutor"]
 course_types: ["cs"]
 learning_goal_tags:
   - "evaluate-readability"
