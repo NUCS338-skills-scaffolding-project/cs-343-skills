@@ -1,0 +1,5 @@
+course_id: "CS-343"
+course_name: "Operating Systems"
+course_type: "cs"
+spoc_contact: "admin@example.com"
+skills_used: ["c-debugger", "hand-calculation-tutor", "vocabulary-tutor", "nautilus-architecture-tutor", "prerequisite-guide"]
