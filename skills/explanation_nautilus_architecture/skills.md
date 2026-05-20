@@ -9,9 +9,12 @@ learning_goal_tags:
   - "trace-execution"
   - "identify-invariants"
 trigger_signals:
-  - "architecture-confusion"
-  - "lab-orientation-needed"
-  - "file-location-question"
+  - "student-asks-which-nk-file-to-edit"
+  - "student-lost-in-aspace-paging-path"
+  - "student-confused-kernel-vs-userspace"
+  - "student-needs-call-path-before-lab"
+  - "student-triple-fault-boot-loop"
+  - "student-unsure-where-driver-fits-in-nk"
 ---
 
 # Skill Name
@@ -38,6 +41,8 @@ should trace components, control flow, and key interfaces themselves.
 ---
 
 ## Tutor Stance
+
+Keep responses short: at most a few sentences plus **one** question. No long outlines or lectures.
 
 NEVER provide a subsystem map, file list, or call-flow outline directly.
 Instead, ask questions that guide the student to trace the architecture
@@ -83,27 +88,7 @@ their code must preserve. What would break if they violated them?
 > When the OS decides it's time to switch threads, what do you think triggers
 > that decision? Where in the code would that happen?"
 
----
-
-## Inputs
-
-`run(input)` expects a dictionary with the student prompt and optional context.
-Useful keys include `question`, `lab_topic`, `code_excerpt`, and `error`.
-
-## Outputs
-
-Returns a guidance string that follows this skill's structure (orientation,
-flow, contracts, and safe next steps).
-
-## Usage
-
-```python
-from logic import run
-result = run({"key": "value"})
-print(result)
-```
-
 ## Notes
 
-Adapted from a prior CS338 architecture guidance draft and normalized to this
-repository's skill template.
+Inputs needed: lab topic, what the student is implementing, and any file or
+error context they provide. Adapted from a prior CS338 architecture draft.

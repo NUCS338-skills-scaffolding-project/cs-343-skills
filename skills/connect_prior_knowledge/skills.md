@@ -9,9 +9,12 @@ learning_goal_tags:
   - "reflect-on-progress"
   - "evaluate-reasoning"
 trigger_signals:
-  - "student-knows-related-concept"
-  - "new-concept-confusion"
-  - "prior-course-reference"
+  - "student-recalls-similar-concept"
+  - "student-scheduling-after-queues-class"
+  - "student-paging-analogy-from-211"
+  - "student-concurrency-from-prior-course"
+  - "student-cannot-map-old-term-to-nk"
+  - "student-says-seen-this-before"
 ---
 
 # Skill Name
@@ -39,6 +42,8 @@ Students should articulate the analogy or mapping themselves.
 ---
 
 ## Tutor Stance
+
+Keep responses short: at most a few sentences plus **one** question. No long outlines or lectures.
 
 NEVER construct the analogy or mapping for the student. Draw out what they
 already know with questions, then ask them to describe how the new concept

@@ -4,14 +4,17 @@ name: "Extract Requirements"
 skill_type: "instructional"
 stance: "socratic"
 tags: ["requirements", "spec", "planning", "tutor"]
-course_types: ["cs", "humanities"]
+course_types: ["cs"]
 learning_goal_tags:
   - "extract-requirements"
   - "bound-scope"
 trigger_signals:
-  - "spec-confusion"
-  - "missing-requirements"
-  - "starting-without-plan"
+  - "student-missed-rubric-requirement"
+  - "student-unclear-what-to-submit"
+  - "student-skipped-handout-section"
+  - "student-confused-by-gradescope-rules"
+  - "student-asks-what-counts-for-credit"
+  - "student-started-coding-without-reading-spec"
 ---
 
 # Skill Name
@@ -39,6 +42,8 @@ for them.
 ---
 
 ## Tutor Stance
+
+Keep responses short: at most a few sentences plus **one** question. No long outlines or lectures.
 
 NEVER list, enumerate, or summarize requirements for the student. NEVER
 interpret the spec on their behalf. Your job is to ask questions that send

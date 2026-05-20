@@ -8,9 +8,12 @@ course_types: ["cs"]
 learning_goal_tags:
   - "decompose-problems"
 trigger_signals:
-  - "student-stuck-starting"
-  - "student-skipping-planning"
-  - "direct-solution-request"
+  - "student-stuck-starting-assignment"
+  - "student-skipping-planning-phase"
+  - "student-asks-for-full-solution"
+  - "student-does-not-know-first-step"
+  - "student-wants-code-before-plan"
+  - "student-asks-what-order-to-implement"
 ---
 
 # Skill Name
@@ -38,6 +41,8 @@ asks focused questions to help them find the structure — without providing it.
 
 ## Tutor Stance
 
+Keep responses short: at most a few sentences plus **one** question. No long outlines or lectures.
+
 NEVER decompose the problem for the student. NEVER provide a step-by-step plan,
 outline, or list of tasks. Ask one focused subproblem question at a time and
 wait for the student to answer before proceeding. Every response MUST end with
@@ -55,6 +60,7 @@ specifically they feel stuck.
 
 Ask one focused subproblem question that helps them break off a smaller,
 tractable piece. One question only — not a list. Examples:
+
 - "What's the very first thing that needs to happen before anything else?"
 - "If you had to split this into two steps, what would step one be?"
 - "What information do you need before you can start writing code?"

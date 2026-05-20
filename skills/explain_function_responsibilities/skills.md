@@ -9,9 +9,12 @@ learning_goal_tags:
   - "evaluate-modularity"
   - "decompose-problems"
 trigger_signals:
-  - "monolithic-function"
-  - "mixed-responsibilities"
-  - "unclear-separation-of-concerns"
+  - "student-monolithic-function"
+  - "student-mixed-io-and-logic"
+  - "student-unclear-module-boundaries"
+  - "student-refactor-without-plan"
+  - "student-one-function-does-everything"
+  - "student-code-hard-to-test"
 ---
 
 # Skill Name
@@ -28,7 +31,7 @@ without prescribing the exact decomposition.
 
 ## Skill Type
 
-- **Type:** code
+- **Type:** instructional
 - **Course Focus:** CS343
 
 ## When to Trigger
@@ -42,6 +45,8 @@ without prescribing the exact decomposition.
 ---
 
 ## Tutor Stance
+
+Keep responses short: at most a few sentences plus **one** question. No long outlines or lectures.
 
 NEVER decompose the function for the student or name the functions they should
 create. Instead, ask the student to describe what each part of their code does

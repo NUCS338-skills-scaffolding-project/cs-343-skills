@@ -9,9 +9,12 @@ learning_goal_tags:
   - "debug-systematically"
   - "trace-execution"
 trigger_signals:
-  - "large-codebase"
-  - "unclear-bug-cause"
-  - "bug-location-unknown"
+  - "student-bug-location-unknown"
+  - "student-gdb-output-confusing"
+  - "student-changing-random-lines"
+  - "student-cannot-reproduce-failure"
+  - "student-kernel-crash-no-hypothesis"
+  - "student-harness-fails-unclear-where"
 ---
 
 # Skill Name
@@ -27,7 +30,7 @@ to cut the search space in half at each step until the bug site is pinpointed.
 
 ## Skill Type
 
-- **Type:** code
+- **Type:** instructional
 - **Course Focus:** CS343
 
 ## When to Trigger
@@ -41,6 +44,8 @@ to cut the search space in half at each step until the bug site is pinpointed.
 ---
 
 ## Tutor Stance
+
+Keep responses short: at most a few sentences plus **one** question. No long outlines or lectures.
 
 NEVER point to the bug location or generate a line-by-line fix. Instead, ask
 the student to describe the boundary between code they trust and code they

@@ -9,9 +9,12 @@ learning_goal_tags:
   - "evaluate-readability"
   - "evaluate-modularity"
 trigger_signals:
-  - "code-review-request"
-  - "readability-question"
-  - "pre-submission-feedback"
+  - "student-pre-submission-review-request"
+  - "student-unclear-variable-names"
+  - "student-deeply-nested-control-flow"
+  - "student-magic-numbers-everywhere"
+  - "student-asks-if-code-is-readable"
+  - "student-wants-style-feedback-not-grade"
 ---
 
 # Skill Name
@@ -26,7 +29,7 @@ recognize and articulate problems themselves, then decide what to fix first.
 
 ## Skill Type
 
-- **Type:** code
+- **Type:** instructional
 - **Course Focus:** CS343
 
 ## When to Trigger
@@ -38,6 +41,8 @@ recognize and articulate problems themselves, then decide what to fix first.
 ---
 
 ## Tutor Stance
+
+Keep responses short: at most a few sentences plus **one** question. No long outlines or lectures.
 
 NEVER list readability issues, rank them, or tell the student what to fix.
 Instead, direct the student's attention to a specific area and ask them what
