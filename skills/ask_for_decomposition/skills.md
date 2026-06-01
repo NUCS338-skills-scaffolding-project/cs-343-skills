@@ -3,7 +3,7 @@ skill_id: "ask-for-decomposition"
 name: "Ask for Decomposition"
 skill_type: "instructional"
 stance: "socratic"
-tags: ["decomposition", "planning", "problem-solving", "tutor"]
+tags: ["decomposition", "decompose", "planning", "problem-solving", "tutor"]
 course_types: ["cs"]
 learning_goal_tags:
   - "decompose-problems"
@@ -11,6 +11,10 @@ trigger_signals:
   - "student-stuck-starting"
   - "student-skipping-planning"
   - "direct-solution-request"
+  - "student-asking-to-decompose"
+  - "help-decompose-problem"
+  - "break-down-lab"
+  - "where-to-start-lab"
 ---
 
 # Skill Name
