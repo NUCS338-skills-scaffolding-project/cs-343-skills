@@ -3,7 +3,7 @@ skill_id: "evaluate-readability-on-code"
 name: "Evaluate Readability on Code"
 skill_type: "instructional"
 stance: "socratic"
-tags: ["readability", "code-review", "feedback", "tutor"]
+tags: ["readability", "code-review", "feedback", "tutor", "variable", "naming", "names", "clean", "submitting"]
 course_types: ["cs"]
 learning_goal_tags:
   - "evaluate-readability"
@@ -12,6 +12,9 @@ trigger_signals:
   - "code-review-request"
   - "readability-question"
   - "pre-submission-feedback"
+  - "confusing-variable-names"
+  - "naming-convention-unclear"
+  - "clean-up-before-submitting"
 ---
 
 # Skill Name

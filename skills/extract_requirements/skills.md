@@ -3,7 +3,7 @@ skill_id: "extract-requirements"
 name: "Extract Requirements"
 skill_type: "instructional"
 stance: "socratic"
-tags: ["requirements", "spec", "planning", "tutor"]
+tags: ["requirements", "spec", "planning", "tutor", "implement", "assignment", "confused", "understand", "rubric", "constraints", "build", "coding"]
 course_types: ["cs", "humanities"]
 learning_goal_tags:
   - "extract-requirements"
@@ -12,6 +12,10 @@ trigger_signals:
   - "spec-confusion"
   - "missing-requirements"
   - "starting-without-plan"
+  - "confused-about-assignment-requirements"
+  - "dont-understand-spec"
+  - "what-to-build-or-implement"
+  - "rubric-requirements-unclear"
 ---
 
 # Skill Name

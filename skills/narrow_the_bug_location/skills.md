@@ -3,7 +3,7 @@ skill_id: "narrow-the-bug-location"
 name: "Narrow the Bug Location"
 skill_type: "instructional"
 stance: "socratic"
-tags: ["debugging", "divide-and-conquer", "code-quality", "tutor"]
+tags: ["debugging", "divide-and-conquer", "code-quality", "tutor", "bug", "crash", "error", "broken", "wrong", "narrow", "find", "locate"]
 course_types: ["cs"]
 learning_goal_tags:
   - "debug-systematically"
@@ -12,6 +12,12 @@ trigger_signals:
   - "large-codebase"
   - "unclear-bug-cause"
   - "bug-location-unknown"
+  - "program-crashes-dont-know-where"
+  - "cant-find-the-error"
+  - "output-is-wrong-dont-know-why"
+  - "checking-random-lines-no-progress"
+  - "broken-but-dont-know-which-part"
+  - "unexpected-behavior-no-idea-why"
 ---
 
 # Skill Name

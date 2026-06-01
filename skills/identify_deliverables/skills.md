@@ -3,7 +3,7 @@ skill_id: "identify-deliverables"
 name: "Identify Deliverables"
 skill_type: "instructional"
 stance: "socratic"
-tags: ["deliverables", "requirements", "planning", "tutor"]
+tags: ["deliverables", "requirements", "planning", "tutor", "submit", "submission", "complete", "done", "required", "finished", "turn", "hand"]
 course_types: ["cs"]
 learning_goal_tags:
   - "understand-assignment-requirements"
@@ -11,6 +11,9 @@ trigger_signals:
   - "student-asks-what-counts-as-complete"
   - "student-unclear-on-submission-requirements"
   - "student-unsure-what-to-submit"
+  - "what-files-to-turn-in"
+  - "required-for-full-credit"
+  - "student-unsure-when-done"
 ---
 
 # Skill Name

@@ -3,7 +3,7 @@ skill_id: "explain-function-responsibilities"
 name: "Explain Function Responsibilities"
 skill_type: "instructional"
 stance: "socratic"
-tags: ["modularity", "decomposition", "code-quality", "tutor"]
+tags: ["modularity", "decomposition", "code-quality", "tutor", "function", "split", "logic"]
 course_types: ["cs"]
 learning_goal_tags:
   - "evaluate-modularity"
@@ -12,6 +12,7 @@ trigger_signals:
   - "monolithic-function"
   - "mixed-responsibilities"
   - "unclear-separation-of-concerns"
+  - "where-to-put-this-logic"
 ---
 
 # Skill Name
