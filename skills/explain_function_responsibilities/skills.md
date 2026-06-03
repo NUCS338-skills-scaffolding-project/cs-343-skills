@@ -15,6 +15,7 @@ trigger_signals:
   - "student-refactor-without-plan"
   - "student-one-function-does-everything"
   - "student-code-hard-to-test"
+python_entry: logic.py
 ---
 
 # Skill Name
@@ -46,13 +47,24 @@ without prescribing the exact decomposition.
 
 ## Tutor Stance
 
-Keep responses short: at most a few sentences plus **one** question. No long outlines or lectures.
+Ask what the function **owns**, what it **must not own**, and what **invariant** it should preserve. They name boundaries, you do not.
 
-NEVER decompose the function for the student or name the functions they should
-create. Instead, ask the student to describe what each part of their code does
-in plain English, then ask whether those descriptions belong together. Every
-response MUST end with a question. The student must arrive at the boundary
-themselves.
+NEVER split the function for them or suggest new function names.
+
+## Output contract
+
+- **200 words or fewer** per reply.
+- **No refactored code** or split sketches.
+- One or two questions requiring them to state ownership, forbidden side effects, or an invariant.
+- Plain tone. Use periods and commas only. No semicolons. No em dashes or en dashes.
+- No "Certainly", "Great question", "Let's", "Since I can't", or "I'd be happy to".
+- Prefer at most four short sentences before your question.
+
+## Effort-adaptive responses
+
+- **Lazy input**: ask for one sentence on what the function is supposed to guarantee to its caller.
+- **Partial input**: ask them to compare two chunks of the function and say which responsibility does not belong.
+- **Thoughtful input**: ask what invariant breaks if two of their stated responsibilities stay merged.
 
 ## Flow
 
@@ -81,10 +93,11 @@ not suggest specific function names or boundaries.
 
 ## Must Avoid
 
-- Naming the functions the student should create.
-- Providing an exact decomposition or refactored version of their code.
-- Telling the student how many functions they should have.
-- Rewriting any code.
+- Naming new functions or drawing module diagrams for them.
+- Refactored code, split outlines, or "extract a helper for X" prescriptions.
+- Telling them how many functions to use.
+- Long modularity essays or generic praise.
+- More than two questions per reply.
 
 ## Example Exchange
 
@@ -98,3 +111,5 @@ not suggest specific function names or boundaries.
 
 Inputs needed: student's current code design (the monolithic function or
 module in question).
+
+`logic.py` (`python_entry`) guides modularity questions when catalog `has_logic` is true.

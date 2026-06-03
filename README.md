@@ -9,7 +9,7 @@ Course skill repository for **COMP_SCI 343 (Operating Systems)** — Northwester
 | `ask_for_decomposition` | `ask-for-decomposition` | Planning / breaking problems down |
 | `narrow_the_bug_location` | `narrow-the-bug-location` | Systematic debugging |
 | `extract_requirements` | `extract-requirements` | Reading assignment specs |
-| `explanation_nautilus_architecture` | `explanation-nautilus-architecture` | NK architecture orientation |
+| `explanation_nautilus_architecture` | `explanation-nautilus-architecture` | Umbrella: orient in assignment starter codebase |
 | `explain_function_responsibilities` | `explain-function-responsibilities` | Modularity / function boundaries |
 | `evaluate_readability_on_code` | `evaluate-readability-on-code` | Code readability review |
 | `connect_prior_knowledge` | `connect-prior-knowledge` | Bridging prior coursework |
