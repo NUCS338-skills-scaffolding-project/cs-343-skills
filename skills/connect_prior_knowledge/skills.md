@@ -3,7 +3,7 @@ skill_id: "connect-prior-knowledge"
 name: "Connect Prior Knowledge"
 skill_type: "instructional"
 stance: "socratic"
-tags: ["prior-knowledge", "analogy", "bridge", "tutor", "similar", "familiar", "remember","connect", "reminds"]
+tags: ["prior-knowledge", "analogy", "bridge", "tutor", "similar", "familiar", "remember", "connect", "reminds", "seen-before", "prior", "earlier", "previous-course", "ive-seen-this", "from-before", "prior-class"]
 course_types: ["cs"]
 learning_goal_tags:
   - "reflect-on-progress"
@@ -16,6 +16,14 @@ trigger_signals:
   - "seems-familiar-but-different"
   - "looks-like-prior-concept"
   - "student-already-knows-related"
+  - "student-seen-this-before"
+  - "seen-something-like-this"
+  - "what-prior-concepts-relate"
+  - "what-from-earlier-courses-applies"
+  - "how-does-this-connect-to-what-i-know"
+  - "student-references-past-experience"
+  - "student-asks-what-this-reminds-them-of"
+  - "concept-seen-in-previous-class"
 ---
 
 # Skill Name

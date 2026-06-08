@@ -3,19 +3,22 @@ skill_id: "extract-requirements"
 name: "Extract Requirements"
 skill_type: "instructional"
 stance: "socratic"
-tags: ["requirements", "spec", "planning", "tutor", "implement", "assignment", "confused", "understand", "rubric", "constraints", "build", "coding"]
+tags: ["requirements", "spec", "planning", "tutor", "assignment", "confused", "understand", "constraints"]
 course_types: ["cs", "humanities"]
 learning_goal_tags:
   - "extract-requirements"
   - "bound-scope"
 trigger_signals:
-  - "spec-confusion"
   - "missing-requirements"
-  - "starting-without-plan"
-  - "confused-about-assignment-requirements"
   - "dont-understand-spec"
   - "what-to-build-or-implement"
-  - "rubric-requirements-unclear"
+  - "understand-what-spec-requires"
+  - "features-to-build"
+  - "figure-out-assignment-requirements"
+  - "what-does-assignment-want-me-to-build"
+  - "spec-definition-of-done"
+  - "make-sure-i-understand-what-to-implement"
+  - "help-me-read-the-spec"
 ---
 
 # Skill Name

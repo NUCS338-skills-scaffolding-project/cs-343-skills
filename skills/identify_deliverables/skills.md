@@ -14,6 +14,8 @@ trigger_signals:
   - "what-files-to-turn-in"
   - "required-for-full-credit"
   - "student-unsure-when-done"
+  - "what-to-hand-in"
+  - "get-full-points"
 ---
 
 # Skill Name

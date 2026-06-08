@@ -3,18 +3,34 @@ skill_id: "ask-for-decomposition"
 name: "Ask for Decomposition"
 skill_type: "instructional"
 stance: "socratic"
-tags: ["decomposition", "decompose", "planning", "problem-solving", "tutor"]
+tags: ["decomposition", "decompose", "planning", "problem-solving", "tutor", "process", "steps", "break-down", "how-to-build", "walk-through"]
 course_types: ["cs"]
 learning_goal_tags:
   - "decompose-problems"
 trigger_signals:
+  - "student-uses-word-decompose"
+  - "student-explicitly-asks-to-decompose"
+  - "break-problem-into-smaller-parts"
   - "student-stuck-starting"
   - "student-skipping-planning"
   - "direct-solution-request"
   - "student-asking-to-decompose"
   - "help-decompose-problem"
   - "break-down-lab"
+  - "break-down-feature"
+  - "break-down-task"
   - "where-to-start-lab"
+  - "where-to-start-feature"
+  - "where-to-start-task"
+  - "decompose-specific-feature"
+  - "decompose-process-for-task"
+  - "break-down-implementation"
+  - "walk-through-how-to-build"
+  - "explain-steps-to-implement"
+  - "break-into-smaller-parts"
+  - "help-decompose-building-feature"
+  - "split-task-into-steps"
+  - "create-feature-step-by-step"
 ---
 
 # Skill Name
